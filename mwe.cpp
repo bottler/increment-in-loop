@@ -48,7 +48,7 @@ void backToSegment(int d, int m, const Signature& x, Signature& s) {
 int main() {
   auto s1 = make(1);
   auto s2 = make(2);
-	backToSegment(D, M, s1, s2);
+  backToSegment(D, M, s1, s2);
   for (auto f : s2.m_data[0])
     std::cout << f << "\n";
 }
